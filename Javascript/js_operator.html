@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <body>
+            <p id="myoutput"></p>
+            <button type = "button" id="mybutton">My Button</button>
+            <button type = "Clear" id="myclear">Cleared</button>
+            <input type="text" id="myinput">
+            <script>
+                function myfun(){
+                    document.getElementById("myoutput").innerHTML = "heyy";
+                }
+                document.getElementById("myinput").onkeydown=myfun;
+
+                // function myfun(){
+                //     document.getElementById("myoutput").innerHTML = "hello";
+                // }
+                // document.getElementById("myinput").onkeyup=myfun;
+
+                function display(){
+                    console.log('button clicked');
+                    document.getElementById('myoutput').innerHTML = 'Button Clicked';
+                    }
+                document.getElementById("mybutton").onclick = display;
+
+                function clear(){
+                    console.log('button clicked');
+                    document.getElementById('myoutput').innerHTML = ' ';
+                }
+                document.getElementById("myclear").onclick = clear;
+
+                // function clear(){
+                //     console.log('button clicked');
+                //     document.getElementById('myoutput').innerHTML = ' ';
+                // }
+                // document.getElementById("myclear").onmouseenter = clear;
+                
+                // function clear(){
+                //     console.log('button clicked');
+                //     document.getElementById('myoutput').innerHTML = ' ';
+                // }
+                // document.getElementById("myclear").onmouseleave = clear;
+
+                // function clear(){
+                //     console.log('button clicked');
+                //     document.getElementById('myoutput').innerHTML = ' ';
+                // }
+                // document.getElementById("myclear").onmouseover = clear;
+                
+                // var x = 10;
+                // var y = 25;
+                // var z = "10";
+               
+                // x+=30;
+                // var n = 'A';
+                // n+=30;
+                // console.log(x)
+                // console.log(n);
+
+                // x*=30;
+                // var n = 'A';
+                // n*=30;
+                // console.log(x)
+                // console.log(n);
+
+                // a*=30;
+                // var d = 'A';
+                // d*=30;
+                // console.log(a);
+                // console.log(d);
+                // var max = a<b?b:a;
+                // console.log(max);
+
+                // console.log("x==y",x==y);
+                // console.log("x===y",x===y);
+                // console.log("x==z",x==z);
+                // console.log("x===z",x===z);
+                
+
+
+                //if(x<y || x>0)
+                //if(!(a>0))
+                // if(a<b && a<1)
+                // console.log('${x} is negative');
+
+            </script>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            .container{
+            /* float:right;
+            clear: right; */
+            height: 500%;
+            width: 200%;
+        }
+        .mydiv{
+            height: 200px;
+            width: 200px;
+        }
+        .firstdiv{
+            position: relative;
+            inline-size: 10%;
+            top: 15px;
+            left: 20px;
+            background-color: rgb(193, 245, 6);
+            z-index: 1;
+        }
+        .seconddiv{
+            position: absolute;
+            inline-size: 20%;
+            font-size: x-large;
+            top: 35px;
+            left: 240px;
+            background-color:green ;
+            z-index: 2;
+        }
+        .thirddiv{
+            position: absolute;
+            font-size: x-large;
+            top: 45px;
+            left: 450px;
+            background-color:green ;
+            z-index: 3;
+        }
+        .fourthdiv{
+            position: absolute;
+            inline-size: 45px;
+            font-size: x-large;
+            top: 55px;
+            left: 560px;
+            background-color:green ;
+            z-index: 4;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <!-- <p><div class="container">
+        </div>This is example of para</p> -->
+        <div class="container">
+            <div class="mydiv firstdiv"></div>
+            <div class="mydiv seconddiv"></div>
+            <div class="mydiv thirddiv"></div>
+            <div class="mydiv fourthdiv"></div>
+        </div>
+    </body>
+</html>

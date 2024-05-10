@@ -1,0 +1,19 @@
+/* Create a CSS view border of div of 1px and corner should having 5px radius and border color should be red. */
+body{
+    background-color: brown;
+
+}
+div{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    height: 100px;
+    width: 40px;
+    background-color: black;
+}
+
+div :hover{
+    text-transform: uppercase;
+    background-color: blue;
+}

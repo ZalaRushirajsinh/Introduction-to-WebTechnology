@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            .container{
+            /* float:right;
+            clear: right; */
+            height: 500%;
+            width: 200%;
+        }
+        .mydiv{
+            height: 200px;
+            width: 200px;
+        }
+        .firstdiv{
+            position: relative;
+            top: 15px;
+            left: 20px;
+            background-color: rgb(193, 245, 6);
+            z-index: 1;
+        }
+        .seconddiv{
+            position: absolute;
+            font-size: x-large;
+            top: 35px;
+            left: 40px;
+            background-color:green ;
+            z-index: 2;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <!-- <p><div class="container">
+        </div>This is example of para</p> -->
+        <div class="container">
+            <div class="mydiv firstdiv"></div>
+            <div class="mydiv seconddiv"></div>
+        </div>
+    </body>
+</html>

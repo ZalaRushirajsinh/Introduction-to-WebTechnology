@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>test site</title>
+    </head>
+
+<body>
+    <p id="mypara" class="mycls">this is test para</p>
+    <div class="mycls" style="background-color: red;">test div</div>
+    <div class="cls" style="background-color: blue;">test div 2</div>
+    <div class="date" style="background-color: yellow;">test div 2</div>
+
+    <script>
+        var para = document.getElementById("mypara");
+        console.log(para.innerHTML)
+
+        var clsEle = document.getElementsByClassName("mycls");
+        console.log(clsEle.length)
+        clsEle[0].style.fontSize = 50;
+        console.log(Date.now())
+
+        
+
+        
+
+
+        
+
+    </script>
+</body>
+</html>
+
+<!-- chnge bg color of all div -->
+<!-- get users name and base on length of name you have to say it is short,long or too long name  -->
+<!-- 2-3 different objects and when click on tht it increases the score nd outside it decreases the score -->

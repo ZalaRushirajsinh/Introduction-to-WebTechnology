@@ -1,0 +1,18 @@
+<p id = "mypara"></p>
+<input type="text" id="mytext" placeholder="ENTER"/>
+<input type="text" id="mysecondtext"/>
+<script>
+    function myfun(){
+        document.getElementById('mypara')
+        .innerHTML="Event occured";
+        console.log('focused');
+    }
+    function myloadfun(){
+        console.error('cannot go ahead');
+    }
+
+    document.getElementById('mytext').onblur=myfun;
+    document.getElementsByTagName('body')[0].onload = myloadfun;
+    console.log(document.getElementsByTagName('body')); 
+</script>
+

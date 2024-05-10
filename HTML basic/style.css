@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(87, 80, 62);
+}
+
+.card-prod{
+    background-color: antiquewhite;
+    width: 200px;
+    min-width: 20px;
+    height: 300px; 
+    margin: 20px;
+}
+.prod-img{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    text-transform: capitalize;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.old_price{
+    display: inline;
+    text-decoration: line-through;
+    color: rgb(23, 246, 3);
+}
+.new_price{
+    display: inline;
+    font-size: 25;
+}
